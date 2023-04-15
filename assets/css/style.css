@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    margin: 0;
+    font-size: 1.1rem;
+    font-family: 'Lora', sans-serif;
+    text-align: center;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333;
+	width: 100vw;
+	height: 100vh;
+	background-color: hsla(81, 70%, 48%,0.6);
+  }
+header, footer{
+    border-radius: 1%;
+    min-height: 10%;
+    background-color:rgba(47, 15, 93, 0.7);
+}
+div{
+    margin: 0;
+    display: inline-block;
+}
+/* -----------------HEADER---------------------- */
+
+nav{
+    padding-top: 1rem;
+    text-align: center;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif   ;
+    color:rgba(208, 217, 126,0.8);
+    margin: 0 3vw 0 2vw;
+    padding: 1vh;
+    text-align: center;
+    width: 100vw;
+    font-size: 1.2em;
+    border-radius:  5%;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+
+a:visited{
+    visibility: hidden;
+}
+
+/* -------------------------MAIN-------------------- */
+
+main{
+    height: 70vh;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    margin: 0 0.5vw 0 0.5vw;
+}
+
+hr{
+    visibility: hidden;
+}
+
+#img1{
+    text-align: right;
+}
+
+#img2{
+    text-align: left;
+}
+
+/* ----------------FOOTER--------------------*/
+
+li{
+    display: inline-block;
+    text-align: left;
+    margin: 0 5vw;
+    font-size: 1.2rem;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#icon{
+    height: 1rem;
+    width: 0.9rem;
+}
+
+/* ------------INSTITUCIONAL----------- */
+
+
+
+/* -------------NOTICIAS--------------- */
+
+iframe{
+    
+    min-height: 100%;
+    min-width: 100%;
+    align-self: center;
+}
+
+
+/* -------------CONTACTO---------------- */
+
+
+
+/* ---------------PACIENTE-------------- */
+
